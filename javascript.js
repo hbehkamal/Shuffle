@@ -38,7 +38,7 @@
 
   (autoPlayStart = function(){
     if(autoPlayIv) return ;
-    autoPlayIv = setInterval(slide, 1000);
+    autoPlayIv = setInterval(slide, 10000);
   })();
 
   autoPlayStop = function(){
