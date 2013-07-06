@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #dadada;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+.container .gallery {
+  width: 855px;
+  height: 390px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  position: relative;
+  text-align: center;
+}
+.container .gallery li {
+  position: absolute;
+  list-style-type: none;
+  -webkit-transition: all 1500ms;
+}
+.container .gallery li img {
+  position: absolute;
+  border-radius: 2px;
+  -webkit-transition: all 800ms;
+  border: dotted 1px #c78e8e;
+}
+.container .gallery li .s1 {
+  width: 850px;
+  height: 350px;
+  position: absolute;
+  z-index: 5;
+}
+.container .gallery li .s2 {
+  left: 46px;
+  top: -26px;
+  width: 754px;
+  height: 333px;
+  opacity: 0.8;
+  z-index: 4;
+}
+.container .gallery li .s3 {
+  left: 95px;
+  top: -45px;
+  width: 660px;
+  height: 333px;
+  opacity: 0.6;
+  z-index: 3;
+}
+.container .gallery li .s4 {
+  left: 118px;
+  top: -65px;
+  width: 610px;
+  height: 333px;
+  opacity: 0.4;
+  z-index: 2;
+}
+.container .gallery li .s5 {
+  left: 140px;
+  top: -85px;
+  width: 565px;
+  height: 333px;
+  opacity: 0.2;
+  z-index: 1;
+}
+.container .gallery li .active {
+  left: 0px;
+  top: 0px;
+  z-index: 2;
+  width: 850px;
+  height: 350px;
+  opacity: 1;
+  -webkit-transition: all 800ms;
+}
+.container .gallery li .deactive {
+  position: absolute;
+  left: 46px;
+  top: -26px;
+  width: 754px;
+  height: 333px;
+  opacity: 0.5;
+  border-radius: 2px;
+  border: solid 2px #008000;
+  -webkit-transition: all 800ms;
+}
+.container #next {
+  position: absolute;
+  left: 645px;
+  width: 70px;
+  height: 40px;
+  text-align: center;
+  font-size: 30px;
+  font-family: Arial;
+  background-color: #bbc2af;
+  border-radius: 2px;
+  cursor: pointer;
+  -webkit-transition: all 500ms;
+}
+.container #next:hover {
+  background-color: #6d6061;
+}
